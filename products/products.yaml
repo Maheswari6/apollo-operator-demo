@@ -29,6 +29,10 @@ spec:
           name: String
           description: String
         }
+
+        type DummyType {
+          dummyField: String
+        }
         
         type Query {
           product(id: ID!): Product
